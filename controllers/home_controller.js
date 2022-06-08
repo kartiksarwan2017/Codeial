@@ -3,6 +3,10 @@ module.exports.home = function(req, res){
 }
 
 
+module.exports.account = function(req, res){
+    return res.end('<h1> Accounts Section </h1>');
+}
+
 //module.exports.actionName = function(req, res){}
 
 // module.exports.about = function(req, res){
